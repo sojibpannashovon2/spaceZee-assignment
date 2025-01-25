@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "CustomFont-1";
+  src: url("/src/assets/Lobster/Lobster-Regular.ttf") format("woff2");
+  font-weight: 110px;
+  font-height: 30px;
+
+  font-style: normal;
+}
+@font-face {
+  font-family: "CustomFont-2";
+  src: url("/src/assets/Inter/Inter_24pt-Regular.ttf") format("woff2");
+  /* font-weight: 110px;
+  font-height: 30px; */
+
+  font-style: normal;
+}
