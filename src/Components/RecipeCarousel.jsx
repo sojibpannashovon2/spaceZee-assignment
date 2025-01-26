@@ -90,7 +90,7 @@ const RecipeCarousel = () => {
                     alt={recipe.title}
                     className="w-full h-[640px] object-cover "
                   />
-                  <span className="absolute 2xl:xl:lg:ml-[-80px] 2xl:xl:lg:top-10     ">
+                  <span className="absolute xl:lg:ml-[-80px] xl:lg:top-10     ">
                     <img className="w-[160px] h-[145px]" src={image} alt="" />
                   </span>
                 </div>

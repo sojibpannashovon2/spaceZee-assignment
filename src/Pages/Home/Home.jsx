@@ -12,9 +12,7 @@ const Home = () => {
         <Outlet></Outlet>
 
         <RecipeCarousel />
-        <div className="">
-          <TastyRecipe />
-        </div>
+        <TastyRecipe />
       </div>
     </>
   );

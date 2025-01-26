@@ -1,14 +1,15 @@
 import { BsFillStopwatchFill } from "react-icons/bs";
 import { TbToolsKitchen2 } from "react-icons/tb";
-import cardone from "../assets/CardImage/cardone.png";
-const CardRecipe = () => {
+
+const CardRecipe = ({ recipe }) => {
+  const { image } = recipe || {};
   return (
     <>
       <div className="bg-[#E7FAFE] rounded-[30px] shadow-md h-[434px] overflow-hidden max-w-sm w-[400px] p-4">
         {/* Image Section */}
         <div className="relative">
           <img
-            src={cardone}
+            src={image}
             alt="Product"
             className="w-full h-64 object-cover rounded-[30px]"
           />
