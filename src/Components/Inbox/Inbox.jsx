@@ -1,6 +1,3 @@
-import inbox1 from "../../assets/inbox/inbox1.png";
-import inbox2 from "../../assets/inbox/inbox2.png";
-
 const Inbox = () => {
   return (
     <>

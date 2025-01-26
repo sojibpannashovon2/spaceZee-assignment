@@ -6,6 +6,7 @@ import TastyRecipe from "../../Components/TastyRecipe";
 import ChefDetails from "../../Components/ChefDetails";
 import InstagramContainer from "../../Components/InstagramSection/InstagramContainer";
 import Inbox from "../../Components/Inbox/Inbox";
+import Footer from "../../Components/Shared/Footer/Footer";
 
 const Home = () => {
   return (
@@ -22,6 +23,8 @@ const Home = () => {
         <InstagramContainer />
 
         <Inbox />
+
+        <Footer />
       </div>
     </>
   );
