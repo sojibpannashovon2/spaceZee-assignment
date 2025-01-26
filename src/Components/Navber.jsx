@@ -9,8 +9,8 @@ const Navbar = () => {
     fontFamily: "CustomFont-2",
   };
   return (
-    <nav className="bg-white border-gray-200 py-5 dark:bg-gray-900 2xl:xl:lg:md:w-[1279.96px] shadow-sm">
-      <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-12 mx-auto ">
+    <nav className="bg-white border-gray-200 py-5 dark:bg-gray-900 2xl:xl:lg:md:w-[1280px] shadow-sm mx-auto">
+      <div className="flex flex-wrap items-center justify-between max-w-screen-xl  mx-auto px-12">
         <a href="#" className="">
           <span
             style={customFontStyle}
