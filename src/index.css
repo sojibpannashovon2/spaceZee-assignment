@@ -16,3 +16,11 @@
 
   font-style: normal;
 }
+
+.banner {
+  background-image: url("/src/assets/inbox/inbox1.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensures the image fits within its container */
+  background-position: bottom right; /* Anchors the image to the bottom-right corner */
+  background-clip: padding-box; /* Ensures clipping is consistent (optional) */
+}

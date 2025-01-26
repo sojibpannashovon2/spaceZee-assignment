@@ -12,7 +12,7 @@ const TastyRecipe = () => {
     <>
       <div
         style={customFontStyle2}
-        className="2xl:xl:lg:px-12 mx-auto w-[1280px] items-center justify-center   "
+        className="xl:xl:lg:px-12 mx-auto w-[1280px] items-center justify-center   "
       >
         <div className="text-center py-16">
           <h1 className="text-[48px] font-semibold">

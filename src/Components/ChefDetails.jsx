@@ -3,7 +3,7 @@ import chef from "../assets/Chef/chef.png";
 const ChefDetails = () => {
   return (
     <>
-      <div className="xl:lg:px-12 my-18 mx-auto w-[1280px] ">
+      <div className="xl:lg:px-12 my-18 mx-auto xl:lg:w-[1280px] ">
         <div className=" flex xl:lg:h-[597px] flex-col lg:flex-row items-center bg-white rounded-lg shadow-sm overflow-hidden">
           {/* Left Section */}
           <div className="w-full flex-1 h-full p-4 ">
@@ -22,9 +22,9 @@ const ChefDetails = () => {
             </div>
           </div>
           {/* Right Section */}
-          <div className="w-full flex-1 ">
+          <div className="w-[100%] flex-1 ">
             <div className="bg-[#E7FAFE]">
-              <img src={chef} className="w-full h-[640px] object-cover " />
+              <img src={chef} className="w-fit h-[640px] object-cover " />
             </div>
           </div>
         </div>

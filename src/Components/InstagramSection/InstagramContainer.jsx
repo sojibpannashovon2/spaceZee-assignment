@@ -5,6 +5,7 @@ import insta1 from "../../../public/instagram/instaone.png";
 import insta2 from "../../../public/instagram/instatwo.png";
 import insta3 from "../../../public/instagram/insthree.png";
 import insta4 from "../../../public/instagram/instafour.png";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const InstagramContainer = () => {
   const customFontStyle2 = {
@@ -14,15 +15,15 @@ const InstagramContainer = () => {
     <>
       <div
         style={customFontStyle2}
-        className="w-[1280px] mx-auto bg-gradient-to-b from-[#E7F9FD00] to-[#E7F9FD]  my-24 xl:lg:px-12"
+        className="mx-auto  xl:lg:w-[1280px] bg-gradient-to-b from-[#E7F9FD00] to-[#E7F9FD]  my-24 xl:lg:px-12"
       >
-        <div className="xl:lg:text-center my-16">
+        <div className="w-full xl:lg:text-center mx-auto  xl:lg:w-[1280px] my-16">
           <h1 className="xl:lg:text-[58px]">
             Check out @foodieland on Instagram
           </h1>
           <p>Check out @foodieland on Instagram for amazing food and vibes!</p>
         </div>
-        <div className="p-4  grid grid-cols-1 xl:lg:grid-cols-4 gap-8">
+        <div className="p-4 w-fit  grid grid-cols-1 xl:lg:grid-cols-4 gap-8">
           <div className="bg-white shadow-sm  rounded-sm h-[445.44px] w-[290px] ">
             <div className="flex items-center px-4 py-3">
               <img className="h-10 w-10 rounded-full" src={logo} />
@@ -205,6 +206,21 @@ const InstagramContainer = () => {
             <p className="text-gray-600 text-xs mx-4">September 19</p>
           </div>
         </div>
+
+        <div className="mx-auto xl:lg:text-center my-16 pb-10">
+          <button className=" gap-3 mt-4 bg-black text-white px-6 py-2 rounded-lg">
+            <div className="flex items-center gap-3">
+              <span>Learn More</span>
+              <FaInstagramSquare />
+            </div>
+          </button>
+        </div>
+        {/* <div className="xl:lg:text-center mx-auto my-10 bg-black text-white w-[229px] ">
+          <div className="flex items-center gap-2 text-center mb-10">
+            View Instagram
+            
+          </div>
+        </div> */}
       </div>
     </>
   );
