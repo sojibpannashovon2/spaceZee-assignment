@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "image": "../src/assets/CardImage/cardone.png",
+    "time": "30 Minutes",
+    "type": "Snack"
+  },
+  {
+    "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+    "image": "../src/assets/CardImage/cardtwo.png",
+    "time": "30 Minutes",
+    "type": "Fish"
+  },
+  {
+    "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+    "image": "../src/assets/CardImage/cardthree.png",
+    "time": "30 Minutes",
+    "type": "Breakfast"
+  },
+  {
+    "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+    "image": "../src/assets/CardImage/cardfour.png",
+    "time": "30 Minutes",
+    "type": "Healthy"
+  },
+  {
+    "title": "Chicken Meatballs with Cream Cheese",
+    "image": "../src/assets/CardImage/cardfive.png",
+    "time": "30 Minutes",
+    "type": "Meat"
+  },
+  {
+    "title": "Don't forget to eat healthy food",
+    "image": "../src/assets/CardImage/cardsix.png",
+    "time": "30 Minutes",
+    "type": "Salads"
+  },
+  {
+    "title": "Fruity Pancake with Orange & Blueberry",
+    "image": "../src/assets/CardImage/cardseven.png",
+    "time": "30 Minutes",
+    "type": "Sweet"
+  },
+  {
+    "title": "The Best Easy One Pot Chicken and Rice",
+    "image": "../src/assets/CardImage/cardeight.png",
+    "time": "30 Minutes",
+    "type": "Snacks"
+  },
+  {
+    "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "image": "../src/assets/CardImage/cardnine.png",
+    "time": "30 Minutes",
+    "type": "Noodles"
+  }
+]

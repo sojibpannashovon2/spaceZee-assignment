@@ -1,6 +1,8 @@
 import { Outlet } from "react-router";
 import Navbar from "../../Components/Navber";
-import Carousel from "../../Components/Carousel";
+
+import RecipeCarousel from "../../Components/RecipeCarousel";
+import TastyRecipe from "../../Components/TastyRecipe";
 
 const Home = () => {
   return (
@@ -8,10 +10,10 @@ const Home = () => {
       <div className="">
         <Navbar />
         <Outlet></Outlet>
-        <Carousel />
 
-        <div>
-          <h1>categori</h1>
+        <RecipeCarousel />
+        <div className="">
+          <TastyRecipe />
         </div>
       </div>
     </>

@@ -16,16 +16,3 @@
 
   font-style: normal;
 }
-
-@keyframes gradient {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
-}
-.animate-text-gradient {
-  /* background-size: 200%; */
-  animation: gradient 3s linear infinite;
-}
